@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+
+/*font-family: "Inconsolata", serif;*/
+
+
+body{
+    background-color:azure;
+    width: auto;
+    height: auto;
+    font-family: "Inconsolata", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background-image: url(conference-ticket-generator-main/assets/images/background-desktop.png);
+    width: 1000px;
+    height: 740px;
+    background-size: cover; /* Ajusta y recorta lo necesario */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+}
+
+.primera-linea{
+    font-family: "Inconsolata", serif;
+    
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    
+}
+
+h2{
+    color: aliceblue;
+}
+
+.segunda-linea{
+    
+    width: 80%;
+    height: 200px;       
+    text-align: center;
+}
+
+h4{
+    color: antiquewhite;
+}
+
+.tercera_linea{
+    background-image: url(conference-ticket-generator-main/assets/images/pattern-ticket.svg);
+   
+    background-size: cover; /* Ajusta y recorta lo necesario */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 380px;
+    height: 150px;
+}
