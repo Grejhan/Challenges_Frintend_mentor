@@ -21,8 +21,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;      
     align-items: center;
     
 
@@ -30,11 +29,17 @@ main{
 
 }
 
+.logo-primario{
+    
+    display: flex;
+    margin-top: 25px;
+}
+
 .primera-linea{
     font-family: "Inconsolata", serif;
-    
-    width: 80%;
-    height: 200px;
+    font-size: 20px;
+    width: 800%;
+    height: 100px;
     text-align: center;
     
 }
@@ -44,19 +49,20 @@ h2{
 }
 
 .segunda-linea{
-    
+    margin-top: 30px;
     width: 80%;
     height: 200px;       
     text-align: center;
+    font-size: small;
+    
 }
 
 h4{
-    color: antiquewhite;
+    color: rgb(244, 242, 239);
 }
 
 .tercera_linea{
-    background-image: url(conference-ticket-generator-main/assets/images/pattern-ticket.svg);
-   
+    background-image: url(conference-ticket-generator-main/assets/images/pattern-ticket.svg);   
     background-size: cover; /* Ajusta y recorta lo necesario */
     background-repeat: no-repeat;
     background-position: center;
